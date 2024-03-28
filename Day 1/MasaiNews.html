@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai News</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        .main{
+            width: 80%;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+        }
+        h1>span{
+            color: red;
+        }
+        h1+div{
+            width: 100px;
+            margin-top: -35px;
+            margin-left: 688px;
+        }
+        h1+div>img{
+            width: 100%;
+        }
+        .news{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 40px;
+        }
+        .news>div>div>img{
+            width: 100%;
+        }
+        .news>div>p{
+            font-weight: 700;
+            font-size: 21px;
+            color: rgb(57, 57, 57);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <h1>Masai In <span>News</span></h1>
+       <div> <img src="https://www.masaischool.com/images/new-homepage/yellow-vector.svg" alt=""></div>
+
+       <div class="news">
+
+
+        <div>
+            <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Frame_427318880_9c02946131.webp" alt=""></div>
+            <p>NSDC, IIT Guwahati, Masai School launch India's first outcome-driven microcredit course in computer science education</p>
+        </div>
+
+        <div>
+            <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Frame_427318880_7fb650169b.webp" alt=""></div>
+            <p>India gets its first outcome-driven microcredit course</p>
+        </div>
+
+        <div>
+            <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Frame_427318879_1456a4f0ef.png" alt=""></div>
+            <p> India's First Outcome-Driven Microcredit Course in Computer Science Education Launched</p>
+        </div>
+
+
+       </div>
+    </div>
+  </body>
+</html>
